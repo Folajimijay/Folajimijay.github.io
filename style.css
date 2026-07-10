@@ -308,3 +308,31 @@ color:#FFD400;
 font-weight:bold;
 
 }
+
+#experience{
+    padding:80px 10%;
+}
+
+.experience-card{
+    background:#10192b;
+    margin:25px 0;
+    padding:30px;
+    border-left:5px solid gold;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.experience-card:hover{
+    transform:translateX(10px);
+    box-shadow:0 0 25px rgba(255,212,0,.3);
+}
+
+.experience-card h4{
+    color:gold;
+    margin-bottom:8px;
+}
+
+.experience-card h5{
+    color:#00d4ff;
+    margin-bottom:15px;
+}
