@@ -465,3 +465,41 @@ border-color:gold;
 box-shadow:0 0 25px rgba(255,212,0,.35);
 
 }
+
+/* ===== Why Hire Me ===== */
+
+#highlights{
+padding:80px 10%;
+text-align:center;
+}
+
+.highlight-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.highlight-card{
+background:#10192b;
+padding:30px;
+border-radius:15px;
+border:1px solid #2d3d57;
+transition:.3s;
+}
+
+.highlight-card:hover{
+transform:translateY(-8px);
+border-color:#FFD400;
+box-shadow:0 0 25px rgba(255,212,0,.35);
+}
+
+.highlight-card h4{
+color:#FFD400;
+margin-bottom:15px;
+}
+
+.highlight-card p{
+line-height:1.7;
+color:#ddd;
+}
